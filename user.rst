@@ -34,6 +34,8 @@ E' possibile modificare i propri dati cliccando sul bottone **Modifica Dati** ch
 
 .. warning:: Non è possibile salvare le modifiche ai propri dati finchè non viene spuntata la casella per il **consenso al trattamento dei dati peronali**. Una volta selezionata la casella, verrà attivato il bottone per il salvataggio delle modifiche.
 
+.. _richiesta-cdu:
+
 Richiesta CDU
 ------------------------------------
 
@@ -56,19 +58,23 @@ Una volta selezionati i terreni, cliccando sul bottone **AGGIUNGI ISTANZA**, l'i
 Gestione Istanze
 ------------------------------
 
-.. image:: img/istanze_admin.png
+.. image:: img/istanze_utenti.png
   :align: center
 
-La tabella istanze mostra tutte le istanze inviate dagli utenti ovvero quelle per le quali l'utente ha caricato l'autocertificazione di pagamento dei Diritti Istruttori e della marca da bollo per l'istanza stessa. Per ogni istanza viene visualizzato:
+La tabella istanze mostra tutte le istanze aggiunte dall'utente tramite il form raggiungibile dal bottone **RICHIEDI CDU** (si veda paragrafo :ref:`richiesta-cdu`). Per ogni istanza viene visualizzato:
 
-* username dell'utente che ha inviato l'istanza
-* indirizzo mail dell'utente che ha inviato l'istanza
-* la data in cui è stata inviata l'istanza dall'utente
-* il file di testo con l'elenco dei mappali selezionati dall'utente e per i quali è richiesto il CDU. Il file può essere visualizzato e scaricato per essere utilizzato come input del Plugin QGIS CDU Creator
-* l'autocertificazione del pagamento dei diritti istruttori
-* l'autocertificazione del pagamento della marca da bollo per l'istanza
-* n° di bolli dovuti per ricevere il CDU. Cliccando sul bottone l'amministratore può inserire il numero di bolli, una volta inserito il numero comparirà nella cella e contemporaneamente verrà inviata una mail all'utente con indicato il n° di bolli da pagare per ottenere il CDU. Il nuero di bolli può essere modificato finchè il CDU non viene inviato, se modificato il nuovo numero di bolli comparirà nella cella e verrà inviata una mail automatica all'utente per informarlo della modifica
-* l'autocertificazione del pagamento delle marche da bollo per il CDU
-* il file del CDU, cliccando sul bottone l'utente amministratore può caricare il file pdf del CDU proddotto con il Plugin QGIS CDU Creator
+* data e ora in cui è stata aggiunta l'istanza
+* l'elenco dei terreni per cui è stato richiesto il CDU/Visura identificati da numero di foglio e mappale
+* un bottone per il caricamento dell'autocertificazione (in formato .pdf) di pagamento dei Diritti Istruttori e se già caricato il link per visualizzare il documento
+* un bottone per il caricamento dell'autocertificazione (in formato .pdf) di pagamento della marca da bollo per l'istanza e se già caricato il link per visualizzare il documento
+* il n° di bolli dovuti per ricevere il CDU
+* un bottone per il caricamento dell'autocertificazione (in formato .pdf) di pagamento delle marche da bollo per il CDU e se già caricato il link per visualizzare il documento
+* un bottone per scaricare il CDU e il link per visualizzare il documento
+
+Il pulsante in corrispondenza della colonna **Rimuovi** consente di eliminare l'istanza corrispondente. E' possibile rimuovere un'istanza finchè questa non viene inviata al Comune. Una volta inviata il pulsante viene disattivato è non sarà più possibile rimuoverla.
+
+Il pulsante in corrispondenza delle colonna **Invia** consente di inviare l'istanza corrispondente al Comune. Aggiunta una nuova istanza, il pulsante è disattivato e si attiverà solo nel momento in cui l'utente avrà caricato sia l'autocertificazione (in formato .pdf) di pagamento dei Diritti Istruttori che l'autocertificazione (in formato .pdf) di pagamento della marca da bollo per l'istanza.
+
+.. warning:: I file delle **autocertificazioni** di pagamento sia dei Diritti Istruttori che della marca da bollo per l'istanza **devono essere in formato .pdf**
 
 Una volta caricato il file pdf del CDU si attiva il tasto di invio in corrispondenza dell'istanza per la quale si è caricato il file. Cliccando su invia, il file del CDU sarà reso visibile e scariabile sulla dashboard dell'utente che ne ha fatto richiesta, inoltre viene anche inviata una mail automatica all'indirizzo mail del Comune di conferma dell'invio e una mail all'utente per informarlo che il CDU è disponibile per il download. Una volta inviato il CDU non è più possibile modificare il numero di bolli e il file del CDU e inoltre il tasto di invio viene disabilitato.
