@@ -73,7 +73,7 @@ La tabella istanze mostra tutte le istanze aggiunte dall'utente tramite il form 
 
 Il pulsante in corrispondenza della colonna **Rimuovi** consente di eliminare l'istanza corrispondente. E' possibile rimuovere un'istanza finchè questa non viene inviata al Comune. Una volta inviata il pulsante viene disattivato è non sarà più possibile rimuoverla.
 
-Il pulsante in corrispondenza delle colonna **Invia** consente di inviare l'istanza corrispondente al Comune. Aggiunta una nuova istanza, il pulsante è disattivato e si attiverà solo nel momento in cui l'utente avrà caricato sia l'autocertificazione (in formato .pdf) di pagamento dei Diritti Istruttori che l'autocertificazione (in formato .pdf) di pagamento della marca da bollo per l'istanza.
+Il pulsante in corrispondenza delle colonna **Invia** consente di inviare l'istanza corrispondente al Comune. Aggiunta una nuova istanza, il pulsante è disattivato e si attiverà solo nel momento in cui l'utente avrà caricato sia l'autocertificazione (in formato .pdf) di pagamento dei Diritti Istruttori che l'autocertificazione (in formato .pdf) di pagamento della marca da bollo per l'istanza. L'istanza inviata sarà evidenziata in arancione.
 
 .. warning:: I file delle **autocertificazioni** di pagamento sia dei Diritti Istruttori che della marca da bollo per l'istanza **devono essere in formato .pdf**
 
@@ -83,4 +83,4 @@ Nella colonna **N. Bolli** compare il numero di marche da bollo dovute per ricev
 
 .. note:: Si ricorda che i bolli per il CDU sono dovuti solo se l'utente vuole ottenere appunto il CDU e non una semplice Visura. Inoltre il CDU è esente da bolli in caso in cui venga richiesto per **Successione ereditaria o Esproprio**
 
-Una volta che il Comune ha caricato il file pdf del CDU l'utente riceverà una mail automatica per informarlo che il CDU è pronto per essere sacricato. In questa fase, accedebdo alla propria dashboard, l'utente vedrà in corrispondenza della colonna File CDU un bottone per scaricare il file del CDU e un link per visualizzare il file da browser.
+Una volta che il Comune ha caricato il file pdf del CDU l'utente riceverà una mail automatica per informarlo che il CDU è pronto per essere sacricato. In questa fase, accedendo alla propria dashboard, l'utente vedrà in corrispondenza della colonna File CDU un bottone per scaricare il file del CDU e un link per visualizzare il file da browser. L'istanza per la quale è disponibile il file del CDU da scaricare sarà evidenziata in verde.
