@@ -58,7 +58,7 @@ Una volta selezionati i terreni, cliccando sul bottone **AGGIUNGI ISTANZA**, l'i
 Gestione Istanze
 ------------------------------
 
-.. image:: img/istanze_utenti.png
+.. image:: img/istanze_utente.png
   :align: center
 
 La tabella istanze mostra tutte le istanze aggiunte dall'utente tramite il form raggiungibile dal bottone **RICHIEDI CDU** (si veda paragrafo :ref:`richiesta-cdu`). Per ogni istanza viene visualizzato:
