@@ -77,4 +77,10 @@ Il pulsante in corrispondenza delle colonna **Invia** consente di inviare l'ista
 
 .. warning:: I file delle **autocertificazioni** di pagamento sia dei Diritti Istruttori che della marca da bollo per l'istanza **devono essere in formato .pdf**
 
-Una volta caricato il file pdf del CDU si attiva il tasto di invio in corrispondenza dell'istanza per la quale si è caricato il file. Cliccando su invia, il file del CDU sarà reso visibile e scariabile sulla dashboard dell'utente che ne ha fatto richiesta, inoltre viene anche inviata una mail automatica all'indirizzo mail del Comune di conferma dell'invio e una mail all'utente per informarlo che il CDU è disponibile per il download. Una volta inviato il CDU non è più possibile modificare il numero di bolli e il file del CDU e inoltre il tasto di invio viene disabilitato.
+Nella colonna **N. Bolli** compare il numero di marche da bollo dovute per ricevere il CDU. In funzione del numero di pagine totali del documento del CDU, il Comune indicherà il numero di bolli dovuti, l'utente riceverà una mail automatica con il numero di bolli da pagare per poter ricevere il CDU e questa informazione sarà anche visibile in questa colonna. Quando il Comune indica il numero di bolli dovuti, si attiva il bottone nella colonna **Bollo CDU** che consente di caricare l'autocertificazione (in formato .pdf) di pagamento delle marche da bollo per ottenere il CDU.
+
+.. warning:: Il file dell'**autocertificazione** di pagamento delle marche da bollo per ricevere il CDU **deve essere in formato .pdf**
+
+.. note:: Si ricorda che i bolli per il CDU sono dovuti solo se l'utente vuole ottenere appunto il CDU e non una semplice Visura. Inoltre il CDU è esente da bolli in caso in cui venga richiesto per **Successione ereditaria o Esproprio**
+
+Una volta che il Comune ha caricato il file pdf del CDU l'utente riceverà una mail automatica per informarlo che il CDU è pronto per essere sacricato. In questa fase, accedebdo alla propria dashboard, l'utente vedrà in corrispondenza della colonna File CDU un bottone per scaricare il file del CDU e un link per visualizzare il file da browser.
