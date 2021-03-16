@@ -4,7 +4,7 @@ Sistema di Istanze Online
 Il **Sistema di Istanze Online** consente al Cittadino di gestire in autonomia l'iter per l'ottenimento del Certificato di Destinazione Urbanistica o della Visura Catastale. 
 Per accedere al Sistema è necessario creare il proprio account e, una volta registrato, l'utente può procedere alla richiesta. L'iter è composto da pèochi e semplici passi e l'utente è costantemente informato via mail sullo stato di avanzamento della sua richiesta.
 
-Per quanto riguarda il Cittadino, i passi che costituiscono l'iter per l'ottenimento del CDU/Visura sono:
+Per quanto riguarda il **Cittadino**, i passi che costituiscono l'iter per l'ottenimento del CDU/Visura sono:
 
 * Accesso al Sistema tramite username e password definiti in fase di creazione dell'account
 * Aggiunta di un' Istanza di CDU/Visura tramite la selezione dei terreni di proprio interesse identificati da numero di foglio e mappale
@@ -15,9 +15,9 @@ Per quanto riguarda il Cittadino, i passi che costituiscono l'iter per l'ottenim
 
 Tutti questi passi possono essere gestiti in autonomia dal Cittadino tramite la propria dashboard alla quale accede tramite utente e password. Il Cittadino riceverà comunicazione via mail dell'andamento della sua Istanza.
 
-.. note:: Per maggiori informazioni sulla creazione e gestione dell'Istanza da parte del Cittadino si veda la pagina dedicata a questo `LINK <user.html>`__ .
+.. note:: Per maggiori informazioni sulla creazione e gestione dell'Istanza da parte del **Cittadino** si veda la pagina dedicata a questo `LINK <user.html>`__ .
 
-Per quanto riguarda il Comune, i passi che costituiscono l'iter per la fornitura al Cittadino del CDU/Visura sono:
+Per quanto riguarda il **Comune**, i passi che costituiscono l'iter per la fornitura al Cittadino del CDU/Visura sono:
 
 * Verifica dei pagamenti dei Diritti Istruttori e della Marca da Bollo dovuta per l'Istanza
 * Compilazione del CDU tramite il Plugin QGIS CDU Creator
@@ -28,7 +28,7 @@ Per quanto riguarda il Comune, i passi che costituiscono l'iter per la fornitura
 
 Tutti questi passi possono essere gestiti in autonomia dal Comune tramite la propria dashboard amministratore alla quale accede tramite utente e password. Il Comune riceverà comunicazione via mail dell'andamento dell'Istanza sia per quanto riguarda le operazioni svolte dal Cittadino sia per quelle a suo carico.
 
-.. note:: Per maggiori informazioni sulla gestione dell'Istanza da parte del Comune si veda la pagina dedicata a questo `LINK <admin.html>`__ .
+.. note:: Per maggiori informazioni sulla gestione dell'Istanza da parte del **Comune** si veda la pagina dedicata a questo `LINK <admin.html>`__ .
 
 Creazione Account
 ----------------------------------
