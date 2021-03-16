@@ -13,6 +13,7 @@ Contenuti:
 .. toctree::
 
   intro
+  home
   admin
   user
   
