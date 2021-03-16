@@ -1,84 +1,68 @@
-Amministratore
+Sistema di Istanze Online
 ==================================
 
-Il primo passo per accedere al Sistema di Istanza Online consiste nell'effettuare il login inserendo il proprio username e password indicati in fase di iscrizione al Sistema.
+Il **Sistema di Istanze Online** consente al Cittadino di gestire in autonomia l'iter per l'ottenimento del Certificato di Destinazione Urbanistica o della Visura Catastale. 
+Per accedere al Sistema è necessario creare il proprio account e, una volta registrato, l'utente può procedere alla richiesta. L'iter è composto da pèochi e semplici passi e l'utente è costantemente informato via mail sullo stato di avanzamento della sua richiesta.
 
-Qualora si fosse dimenticata la propria password, è possibile cliccare sul link **Hai dimenticato la password?** e inserendo il proprio username verrà inviata una mail automatica all'utente con un link alla pagina in cui potrà essere inserità la nuova password.
+Per quanto riguarda il Cittadino, i passi che costituiscono l'iter per l'ottenimento del CDU/Visura sono:
 
-.. image:: img/login.png
-  :align: center
+* Accesso al Sistema tramite username e password definiti in fase di creazione dell'account
+* Aggiunta di un' Istanza di CDU/Visura tramite la selezione dei terreni di proprio interesse identificati da numero di foglio e mappale
+* Autocertificazione di pagamento dei Diritti Istruttori e della Marca da Bollo dovuta per l'Istanza
+* Invio dell'Istanza al Comune
+* Autocertificazione di pagamento delle eventuali Marche da Bollo dovute per il CDU
+* Download del documento di CDU/Visura
 
-Una volta fatto l'accesso, l'utente viene reindirizzato alla propria dashboard in cui può:
+Tutti questi passi possono essere gestiti in autonomia dal Cittadino tramite la propria dashboard alla quale accede tramite utente e password. Il Cittadino riceverà comunicazione via mail dell'andamento della sua Istanza.
 
-* Visualizzare i propri dati
-* Modificare i propri dati
-* Visualizzare le istanze inviate dai Cittadini e i relativi pagamenti
-* Inviare ai Cittadini informazioni relative al numero di bolli dovuti per ottenere il CDU
-* Caricare il file di CDU/Visura
-* Viaualizzare gli utenti iscritti al Sistema
-* Monitorare la validità delle informazioni (es. data di scadenza del documento di identità) fornite dai Cittadini in fase di iscrizione
-* Rendere altri utenti amministratori
+.. note:: Per maggiori informazioni sulla creazione e gestione dell'Istanza da parte del Cittadino si veda la pagina dedicata a questo `LINK <user.html>`__ .
 
-La **Dashboard Amministratore** è suddivisa in tre sezioni:
+Per quanto riguarda il Comune, i passi che costituiscono l'iter per la fornitura al Cittadino del CDU/Visura sono:
 
-* Dati utente
-* Tabella istanze
-* Tabella utenti
+* Verifica dei pagamenti dei Diritti Istruttori e della Marca da Bollo dovuta per l'Istanza
+* Compilazione del CDU tramite il Plugin QGIS CDU Creator
+* Comunicazione al Cittadino del numero di eventuali bolli dovuti per il CDU
+* Verifica del pagamento delle eventuali Marche da Bollo dovute per il CDU
+* Caricamento del file di CDU/Visura
+* Invio del documento di CDU/Visura al Cittadino
 
-Gestione dati personali
+Tutti questi passi possono essere gestiti in autonomia dal Comune tramite la propria dashboard amministratore alla quale accede tramite utente e password. Il Comune riceverà comunicazione via mail dell'andamento dell'Istanza sia per quanto riguarda le operazioni svolte dal Cittadino sia per quelle a suo carico.
+
+.. note:: Per maggiori informazioni sulla gestione dell'Istanza da parte del Comune si veda la pagina dedicata a questo `LINK <admin.html>`__ .
+
+Creazione Account
 ----------------------------------
 
-Accdendo alla propria dashboard, è possibile visualizzare le informazioni principali relative al proprio utente che sono state inserite in fase di iscrizione. Tra queste informazioni, è obbligatorio indicare il numero di un documento di identità (Carta di Identità, Passaporto, ecc.) e la relativa data di scadenza. Se il documento risulta scaduto, il Sistema mostrerà un avviso per segnalare all'utente la necessità di modificare i propri dati inserendo un documento valido. 
+L'account personale deve essere creato una sola volta al primo accesso al Sistema così da essere registrati nella banca dati del Comune. L'account è protetto da password, i dati personali saranno quindi visibili al solo proprietario dell'account. 
 
-.. image:: img/dati_admin.png
-  :align: center
+Per la creazione dell'account sono richieste le seguenti infromazioni:
 
-E' possibile modificare i propri dati cliccando sul bottone **Modifica Dati** che reindirizza l'utente a un form da cui sarà possibile visualizzare le informazioni attualmente presenti ed eventualmente modificarle. Una volta salvate le modifiche l'utente viene reindirizzato alla propria dashboard dove può visualizzare i propri dati con le modifiche apportate.
+* **Username** - lo username non deve contenere numeri, lettere maiuscole e caratteri speciali (es. *, spazi, #, @, _, ecc.). Deve essere composto solo da lettere minuscole e deve avere almeno 8 caratteri e non più di 15 caratteri. Il campo è **obbligatorio**. Qualora non venga rispettato anche una sola di queste regole, il Sistema segnalerà un errore
+* **Password** - la password non può essere uguale allo username. Il campo è **obbligatorio**. Qualora non venga rispettato anche una sola di queste regole, il Sistema segnalerà un errore
+* **Conferma password** - la conferma della password deve essere uguale alla password indicata al punto precedente. Il campo è **obbligatorio**. Qualora non venga rispettato anche una sola di queste regole, il Sistema segnalerà un errore
+* **E-mail** - deve essere indicato un indirizzo mail valido. Il campo è **obbligatorio**. Qualora non venga rispettato anche una sola di queste regole, il Sistema segnalerà un errore
+* **Nome** - Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Cognome** - Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Codice Fiscale** - Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Numero Documento di Identità** - deve essere inserito il numero di un documento di identità valido. Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Data scadenza del documento** - il documento deve essere in corso di validità pertanto non è possibile inserire una data antecedente alla data del giorno in cui si ta creando l'account. Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Via e Civico** - Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Codice di avviamento postale** - Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Città** - Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Telefono** - Il campo è **obbligatorio**. Qualora non venga rispettata questa regola, il Sistema segnalerà un errore
+* **Affiliazione** - Società, organizazzione, ecc. di appartenenza. Il campo è **facoltativo**
 
-.. warning:: Non è possibile salvare le modifiche ai propri dati finchè non viene spuntata la casella per il **consenso al trattamento dei dati peronali**. Una volta selezionata la casella, verrà attivato il bottone per il salvataggio delle modifiche.
+In caso di errori segnalati dal Sistema non sarà possibile procedere alla creazione dell'account, il tasto **INVIA** sarà disabilitato.
+
+.. warning:: Per procedere alla creazione dell'account **è necessario prestare il Consenso al trattamento dei dati personali** spuntando la casella corrispondente altrimenti non sarà possibile procedere alla creazione dell'account, il tasto **INVIA** sarà disabilitato.
+
+Una volta creato l'account, sarà sufficiente accedere tramite username e password per essere reindirizzati alla propria dashboard.
 
 
-Gestione Istanze
+Pagamenti
 ------------------------------
 
-.. image:: img/istanze_admin.png
-  :align: center
-
-La tabella istanze mostra tutte le istanze inviate dagli utenti ovvero quelle per le quali l'utente ha caricato l'autocertificazione di pagamento dei Diritti Istruttori e della marca da bollo per l'istanza stessa. Per ogni istanza viene visualizzato:
-
-* username dell'utente che ha inviato l'istanza
-* indirizzo mail dell'utente che ha inviato l'istanza
-* la data in cui è stata inviata l'istanza dall'utente
-* il file di testo con l'elenco dei mappali selezionati dall'utente e per i quali è richiesto il CDU. Il file può essere visualizzato e scaricato per essere utilizzato come input del Plugin QGIS CDU Creator
-* l'autocertificazione del pagamento dei diritti istruttori consultabile e scaricabile tramite link
-* l'autocertificazione del pagamento della marca da bollo per l'istanza consultabile e scaricabile tramite link
-* n° di bolli dovuti per ricevere il CDU. Cliccando sul bottone l'amministratore può inserire il numero di bolli, una volta inserito il numero comparirà nella cella e contemporaneamente verrà inviata una mail all'utente con indicato il n° di bolli da pagare per ottenere il CDU. Il nuero di bolli può essere modificato finchè il CDU non viene inviato, se modificato il nuovo numero di bolli comparirà nella cella e verrà inviata una mail automatica all'utente per informarlo della modifica
-* l'autocertificazione del pagamento delle marche da bollo per il CDU consultabile e scaricabile tramite link
-* il file del CDU, cliccando sul bottone l'utente amministratore può caricare il file pdf del CDU prodotto con il Plugin QGIS CDU Creator
-
-Una volta caricato il file pdf del CDU si attiva il tasto di invio in corrispondenza dell'istanza per la quale si è caricato il file. Cliccando su invia, il file del CDU sarà reso visibile e scariabile sulla dashboard dell'utente che ne ha fatto richiesta, inoltre viene anche inviata una mail automatica all'indirizzo mail del Comune di conferma dell'invio e una mail all'utente per informarlo che il CDU è disponibile per il download. Una volta inviato il CDU non è più possibile modificare il numero di bolli e il file del CDU e inoltre il tasto di invio viene disabilitato. Le istanze per le quali si è terminato l'iter (pagamenti da parte del Cittadino e invio CDU) vengono evidenziate in verde.
+Tutti i pagamenti da effettuare per l'ottenimento del CDU/Visura devono essere dichiarati tramite la compilazione dei rispettivi moduli di autocertificazione di avvenuto pagamento. Il Cittadino, una volta effettuati i pagamenti secondo le indicazioni che riceverà tramite email, dovrà compilare i rispettivi moduli e caricarli nel Sistema tramite gli appositi strumenti raggiungibili dalla propria dashboard.
 
 
-Gestione Utenti
-------------------------------
 
-.. image:: img/utenti_admin.png
-  :align: center
-
-La tabella utenti mostra tutti gli utenti iscritti al Sistema di Istanze Online del Comune. Per ogni utente viene visualizzato:
-
-* username dell'utente
-* Nome e Cognome
-* indirizzo mail dell'utente
-* Codice Fiscale
-* Numero del Documento di Identità
-* la data di scadenza del Documento di Identità
-* Indirizzo
-* Numero di telefono
-* Affiliazione
-
-Per quanto riguarda la **data di scadenza del documento**, il Sistema segnala se il documento risulta scaduto. La riga corrispondente all'utente il documento è scaduto viene evidenziata in giallo e in corrispondenza della data di scadenza viene visualizzato un bottono con il quale l'utente amministratore può notificare all'utente che il documento risulta scaduto. Premendo il bottone infatti viene inviata una mail automatica all'utente che lo avvisa della problematica e lo invita a modificare quanto prima i suoi dati inserendo un documento di identità valido. Se il documento è scaduto infatti, l'utente non potrà richiedere un nuovo CDU.
-
-La colonna **Rimuovi** mostra un pulsante con il quale l'utente amministratore può rimuovere l'utente dal Sistema. Una volta rimosso, l'utente non potrà più accedere alla sua dashboard e dovrà procedere alla creazione di un nuovo account.
-
-La colonna **Admin** mostra un pulsante con il quale l'utente amministratore può rendere amministratore un altro utente iscritto al Sistema.
