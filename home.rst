@@ -8,9 +8,8 @@ Per quanto riguarda il **Cittadino**, i passi che costituiscono l'iter per l'ott
 
 * Accesso al Sistema tramite username e password definiti in fase di creazione dell'account
 * Aggiunta di un' Istanza di CDU/Visura tramite la selezione dei terreni di proprio interesse identificati da numero di foglio e mappale
-* Autocertificazione di pagamento dei Diritti Istruttori e della Marca da Bollo dovuta per l'Istanza
+* Caricamento informazioni di pagamento relative a Diritti Istruttori,  Marca da Bollo dovuta per l'Istanza e per il CDU
 * Invio dell'Istanza al Comune
-* Autocertificazione di pagamento delle eventuali Marche da Bollo dovute per il CDU
 * Download del documento di CDU/Visura
 
 Tutti questi passi possono essere gestiti in autonomia dal Cittadino tramite la propria dashboard alla quale accede tramite utente e password. Il Cittadino riceverà comunicazione via mail dell'andamento della sua Istanza.
@@ -19,9 +18,9 @@ Tutti questi passi possono essere gestiti in autonomia dal Cittadino tramite la 
 
 Per quanto riguarda il **Comune**, i passi che costituiscono l'iter per la fornitura al Cittadino del CDU/Visura sono:
 
-* Verifica dei pagamenti dei Diritti Istruttori e della Marca da Bollo dovuta per l'Istanza
-* Compilazione del CDU tramite il Plugin QGIS CDU Creator
-* Comunicazione al Cittadino del numero di eventuali bolli dovuti per il CDU
+* Verifica dei pagamenti dei Diritti Istruttori e della Marca da Bollo dovuta per l'Istanza e per il CDU
+* Compilazione del CDU/Visura tramite il Plugin QGIS CDU Creator
+* Comunicazione al Cittadino del numero di eventuali bolli integrativi dovuti per il CDU
 * Verifica del pagamento delle eventuali Marche da Bollo dovute per il CDU
 * Caricamento del file di CDU/Visura
 * Invio del documento di CDU/Visura al Cittadino
@@ -57,12 +56,6 @@ In caso di errori segnalati dal Sistema non sarà possibile procedere alla creaz
 .. warning:: Per procedere alla creazione dell'account **è necessario prestare il Consenso al trattamento dei dati personali** spuntando la casella corrispondente altrimenti non sarà possibile procedere alla creazione dell'account, il tasto **INVIA** sarà disabilitato.
 
 Una volta creato l'account, sarà sufficiente accedere tramite username e password per essere reindirizzati alla propria dashboard.
-
-
-Pagamenti
-------------------------------
-
-Tutti i pagamenti da effettuare per l'ottenimento del CDU/Visura devono essere dichiarati tramite la compilazione dei rispettivi moduli di autocertificazione di avvenuto pagamento. Il Cittadino, una volta effettuati i pagamenti secondo le indicazioni che riceverà tramite email, dovrà compilare i rispettivi moduli e caricarli nel Sistema tramite gli appositi strumenti raggiungibili dalla propria dashboard.
 
 
 
