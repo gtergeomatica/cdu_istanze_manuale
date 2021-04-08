@@ -36,15 +36,16 @@ E' possibile modificare i propri dati cliccando sul bottone **Modifica Dati** ch
 
 .. _richiesta-cdu:
 
-Richiesta CDU
+Richiesta CDU/VISURA
 ------------------------------------
 
-Cliccando sul bottone **RICHIEDI CDU** l'utente è reindirizzato a una pagina dalla quale è possibile:
+Cliccando sul bottone **RICHIEDI CDU/VISURA** l'utente è reindirizzato a una pagina dalla quale è possibile:
 
 * selezionare foglio e mappale che identificano i terreni per i quali si vuole richiedere il CDU. Una volta selezionato si il foglio che il mappale è necessario cliccare sul tasto **+** per aggiungere il terreno alla lista dei mappali per cui richiedere il CDU. Cliccando sul tasto **+** i dettagli del terreno selezionato saranno visibili nella tabella. Finchè l'istanza non viene aggiunta è sempre possibile **rimuovere** un terreno selezionato cliccando sul tasto corrispondente nella colonna **Rimuovi**.
 
 .. warning:: E' possibile richiedere il CDU per un numero massimo di 20 terreni. Se raggiunto questo numero il sistema segnalerà il raggiungimento del numero massimo di terreni e non permetterà di selezionarne altri. Per eventuali ulteriori terreni sarà necessario creare una nuova istanza.
 
+* Specificare se si vuole richiedere un CDU o una VISURA selezionando la casella corrispondente
 * Inserire il "ruolo" dell'utente che richiede il CDU (es. proprietario, erede, ecc.). Questo campo è **obbligatorio**, se non viene compilato il sistema non permetterà di aggiungere l'istanza
 * La motivazione per la quale è richiesto il CDU (es. stipula atto notarile, succesione, ecc.). E' **obbligatorio** spuntare una delle opzioni indicate, se non viene spuntata alcuna casella il sistema non permetterà di aggiungere l'istanza. Se si sceglie l'opzione *Altro* è obbligatorio indicare la motivazione.
 
@@ -61,26 +62,34 @@ Gestione Istanze
 .. image:: img/istanze_utente.png
   :align: center
 
-La tabella istanze mostra tutte le istanze aggiunte dall'utente tramite il form raggiungibile dal bottone **RICHIEDI CDU** (si veda paragrafo :ref:`richiesta-cdu`). Per ogni istanza viene visualizzato:
+La tabella istanze mostra tutte le istanze aggiunte dall'utente tramite il form raggiungibile dal bottone **RICHIEDI CDU/VISURA** (si veda paragrafo :ref:`richiesta-cdu`). Per ogni istanza viene visualizzato:
 
+* tipo di istanza (CDU o Visura)
 * data e ora in cui è stata aggiunta l'istanza
 * l'elenco dei terreni per cui è stato richiesto il CDU/Visura identificati da numero di foglio e mappale
-* un bottone per il caricamento dell'autocertificazione (in formato .pdf) di pagamento dei Diritti Istruttori e se già caricato il link per visualizzare il documento
-* un bottone per il caricamento dell'autocertificazione (in formato .pdf) di pagamento della marca da bollo per l'istanza e se già caricato il link per visualizzare il documento
-* il n° di bolli dovuti per ricevere il CDU
-* un bottone per il caricamento dell'autocertificazione (in formato .pdf) di pagamento delle marche da bollo per il CDU e se già caricato il link per visualizzare il documento
-* un bottone per scaricare il CDU e il link per visualizzare il documento
+* un bottone per il caricamento del file (in formato .pdf) della ricevuta di pagamento dei Diritti Istruttori e per l'inserimento degli estremi di pagamento. Se già caricato il bottone sarà verde e permetterà di visualizzare i dati inseriti e eventualmente di rimuoverli
+* un bottone per il caricamento del file (in formato .pdf) con la scansione della marca da bollo per l'istanza e per l'inserimento del codice identificativo di 14 cifre del bollo. Se già caricato il bottone sarà verde e permetterà di visualizzare i dati inseriti e eventualmente di rimuoverli
+
+.. note:: Se è stata richiesta una Visura non comparirà alcun bottone in corrispondenza della colonna Bollo Istanza.
+
+* un bottone per il caricamento del file (in formato .pdf) con la scansione della marca da bollo per il CDU e per l'inserimento del codice identificativo di 14 cifre del bollo. Se già caricato il bottone sarà verde e permetterà di visualizzare i dati inseriti e eventualmente di rimuoverli
+
+.. note:: Se è stata richiesta una Visura non comparirà alcun bottone in corrispondenza della colonna Bollo CDU.
+
+* il n° di eventuali bolli integrativi dovuti per ricevere il CDU qualora il documento superi le 4 pagine
+* un bottone per il caricamento del file (in formato .pdf) con la scansione delle marche da bollo integrative per il CDU e per l'inserimento dei codici identificativi di 14 cifre dei bolli. Se già caricato il bottone sarà verde e permetterà di visualizzare i dati inseriti e eventualmente di modificarli
+* un bottone per scaricare il CDU/VISURA e il link per visualizzare il documento
 
 Il pulsante in corrispondenza della colonna **Rimuovi** consente di eliminare l'istanza corrispondente. E' possibile rimuovere un'istanza finchè questa non viene inviata al Comune. Una volta inviata il pulsante viene disattivato è non sarà più possibile rimuoverla.
 
-Il pulsante in corrispondenza delle colonna **Invia** consente di inviare l'istanza corrispondente al Comune. Aggiunta una nuova istanza, il pulsante è disattivato e si attiverà solo nel momento in cui l'utente avrà caricato sia l'autocertificazione (in formato .pdf) di pagamento dei Diritti Istruttori che l'autocertificazione (in formato .pdf) di pagamento della marca da bollo per l'istanza. L'istanza inviata sarà evidenziata in arancione.
+Il pulsante in corrispondenza delle colonna **Invia** consente di inviare l'istanza corrispondente al Comune. Aggiunta una nuova istanza, il pulsante è disattivato. In caso di VISURA il bottone si attiverà solo nel momento in cui l'utente avrà caricato i dati relativi al pagamento dei Diritti Istruttori. In caso di CDU, il bottone si attiverà nel momento in cui l'utente avrà caricato i dati relativi al pagamento dei Diritti Istruttori, al bollo per l'istanza e al bollo per il CDU. L'istanza inviata sarà evidenziata in arancione.
 
-.. warning:: I file delle **autocertificazioni** di pagamento sia dei Diritti Istruttori che della marca da bollo per l'istanza **devono essere in formato .pdf**
+.. warning:: I file relativi al pagamento sia dei Diritti Istruttori che della marca da bollo per l'istanza **devono essere in formato .pdf**
 
-Nella colonna **N. Bolli** compare il numero di marche da bollo dovute per ricevere il CDU. In funzione del numero di pagine totali del documento del CDU, il Comune indicherà il numero di bolli dovuti, l'utente riceverà una mail automatica con il numero di bolli da pagare per poter ricevere il CDU e questa informazione sarà anche visibile in questa colonna. Quando il Comune indica il numero di bolli dovuti, si attiva il bottone nella colonna **Bollo CDU** che consente di caricare l'autocertificazione (in formato .pdf) di pagamento delle marche da bollo per ottenere il CDU.
+Nella colonna **N. Bolli** compare il numero di marche da bollo integrative dovute per ricevere il CDU. In funzione del numero di pagine totali del documento del CDU, il Comune indicherà il numero di bolli dovuti, l'utente riceverà una mail automatica con il numero di bolli ancora da pagare per poter ricevere il CDU e questa informazione sarà anche visibile in questa colonna. Quando il Comune indica il numero di bolli dovuti, si attiva il bottone nella colonna **Altri Bolli CDU** che consente di caricare il file (in formato .pdf) con la scansione delle marche da bollo e di indicare i codici identificativi di 14 cifre dei bolli. Se già caricato il bottone sarà verde e permetterà di visualizzare i dati inseriti e eventualmente di modificarli.
 
-.. warning:: Il file dell'**autocertificazione** di pagamento delle marche da bollo per ricevere il CDU **deve essere in formato .pdf**
+.. warning:: Il file relativo al pagamento delle marche da bollo integrative per ricevere il CDU **deve essere in formato .pdf**
 
 .. note:: Si ricorda che i bolli per il CDU sono dovuti solo se l'utente vuole ottenere appunto il CDU e non una semplice Visura. Inoltre il CDU è esente da bolli in caso in cui venga richiesto per **Successione ereditaria o Esproprio**
 
-Una volta che il Comune ha caricato il file pdf del CDU l'utente riceverà una mail automatica per informarlo che il CDU è pronto per essere sacricato. In questa fase, accedendo alla propria dashboard, l'utente vedrà in corrispondenza della colonna File CDU un bottone per scaricare il file del CDU e un link per visualizzare il file da browser. L'istanza per la quale è disponibile il file del CDU da scaricare sarà evidenziata in verde.
+Una volta che il Comune ha caricato il file pdf del CDU/VISURA l'utente riceverà una mail automatica per informarlo che il file di CDU/VISURA è pronto per essere sacricato. In questa fase, accedendo alla propria dashboard, l'utente vedrà in corrispondenza della colonna File CDU/VISURA un bottone per scaricare il file del CDU/VISURA e un link per visualizzare il file da browser. L'istanza per la quale è disponibile il file del CDU da scaricare sarà evidenziata in verde.
