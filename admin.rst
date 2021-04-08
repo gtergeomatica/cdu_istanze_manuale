@@ -54,7 +54,7 @@ La tabella istanze mostra tutte le istanze inviate dagli utenti. Per ogni istanz
 * il file relativo al pagamento dei diritti istruttori, consultabile e scaricabile tramite link, e un pulsante per copiare gli estremi del pagamento forniti dall'utente
 * il file relativo al pagamento della marca da bollo per l'istanza, consultabile e scaricabile tramite link, e un pulsante per copiare il codice identificativo di 14 cifre del bollo fornito dall'utente
 
-.. note:: Se è stata richiesta una Visura non comparirà nulla in corrispondenza della colonna Bollo Istanza.
+.. note:: Se è stata richiesta una Visura o un CDU per Successione Ereditaria o Esproprio non comparirà nulla in corrispondenza della colonna Bollo Istanza.
 
 * il file relativo al pagamento della marca da bollo per il CDU, consultabile e scaricabile tramite link, e un pulsante per copiare il codice identificativo di 14 cifre del bollo fornito dall'utente
 
