@@ -64,7 +64,7 @@ Gestione Istanze
 
 La tabella istanze mostra tutte le istanze aggiunte dall'utente tramite il form raggiungibile dal bottone **RICHIEDI CDU/VISURA** (si veda paragrafo :ref:`richiesta-cdu`). Per ogni istanza viene visualizzato:
 
-* tipo di istanza (CDU o Visura)
+* tipo di istanza (CDU o Visura), in caso di CDU richiesto per **Successione Ereditaria o Esproprio** viene visualizzato anche il motivo della richiesta per segnalare all'utente che in questi due casi non è dovuto il pgamaneto del bollo per il CDU ma sono dovuti solo i Diritti Istruttori e il Bollo per l'Istanza
 * data e ora in cui è stata aggiunta l'istanza
 * l'elenco dei terreni per cui è stato richiesto il CDU/Visura identificati da numero di foglio e mappale
 * un bottone per il caricamento del file (in formato .pdf) della ricevuta di pagamento dei Diritti Istruttori e per l'inserimento degli estremi di pagamento. Se già caricato il bottone sarà verde e permetterà di visualizzare i dati inseriti e eventualmente di rimuoverli
@@ -90,6 +90,6 @@ Nella colonna **N. Bolli** compare il numero di marche da bollo integrative dovu
 
 .. warning:: Il file relativo al pagamento delle marche da bollo integrative per ricevere il CDU **deve essere in formato .pdf**
 
-.. note:: Si ricorda che i bolli per il CDU sono dovuti solo se l'utente vuole ottenere appunto il CDU e non una semplice Visura. Inoltre il CDU è esente da bolli in caso in cui venga richiesto per **Successione ereditaria o Esproprio**
+.. note:: Si ricorda che i bolli per il CDU sono dovuti solo se l'utente vuole ottenere appunto il CDU e non una semplice Visura. Inoltre il CDU è esente da bolli in caso in cui venga richiesto per **Successione ereditaria o Esproprio**, in questo caso i pulsanti relativi ai pagamenti dei Bolli per i CDU non saranno visibili e l'istanza potrà essere inviata al Comune una volta caricati i dati relativi al pagamento dei Diritti Istruttori e del Bollo per l'Istanza.
 
 Una volta che il Comune ha caricato il file pdf del CDU/VISURA l'utente riceverà una mail automatica per informarlo che il file di CDU/VISURA è pronto per essere sacricato. In questa fase, accedendo alla propria dashboard, l'utente vedrà in corrispondenza della colonna File CDU/VISURA un bottone per scaricare il file del CDU/VISURA e un link per visualizzare il file da browser. L'istanza per la quale è disponibile il file del CDU da scaricare sarà evidenziata in verde.
