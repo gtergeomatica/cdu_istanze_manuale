@@ -53,7 +53,13 @@ La tabella istanze mostra tutte le istanze inviate dagli utenti. Per ogni istanz
 * il file di testo con l'elenco dei mappali selezionati dall'utente e per i quali è richiesto il CDU. Il file può essere visualizzato e scaricato per essere utilizzato come input del Plugin QGIS CDU Creator
 * il file relativo al pagamento dei diritti istruttori, consultabile e scaricabile tramite link, e un pulsante per copiare gli estremi del pagamento forniti dall'utente
 * il file relativo al pagamento della marca da bollo per l'istanza, consultabile e scaricabile tramite link, e un pulsante per copiare il codice identificativo di 14 cifre del bollo fornito dall'utente
+
+.. note:: Se è stata richiesta una Visura non comparirà nulla in corrispondenza della colonna Bollo Istanza.
+
 * il file relativo al pagamento della marca da bollo per il CDU, consultabile e scaricabile tramite link, e un pulsante per copiare il codice identificativo di 14 cifre del bollo fornito dall'utente
+
+.. note:: Se è stata richiesta una Visura o un CDU per Successione Ereditaria o Esproprio non comparirà nulla in corrispondenza della colonna Bollo CDU.
+
 * n° di bolli integrativi dovuti per ricevere il CDU. Cliccando sul bottone l'amministratore può inserire il numero di bolli che l'utente deve ancora pagare per ottenere il CDU. Una volta inserito il numero comparirà nella cella e contemporaneamente verrà inviata una mail all'utente con indicato il n° di bolli da pagare per ottenere il CDU. Il nuero di bolli può essere modificato finchè il CDU non viene inviato, se modificato il nuovo numero di bolli comparirà nella cella e verrà inviata una mail automatica all'utente per informarlo della modifica
 * il file relativo al pagamento della/e marca/he da bollo integrative per il CDU, consultabile e scaricabile tramite link, e un pulsante per copiare il/i codice/i identificativo/i di 14 cifre del/i bollo/i fornito/i dall'utente. Se è stato indicato un numero di bolli integrativi, nella cella corrispondente a questa colonna comparirà la dicitura *In attesa* finchè l'utente non caricherà i dati relativi al pagamento
 * il file del CDU, cliccando sul bottone l'utente amministratore può caricare il file pdf del CDU prodotto con il Plugin QGIS CDU Creator
